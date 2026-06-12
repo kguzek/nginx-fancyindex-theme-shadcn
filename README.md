@@ -8,10 +8,10 @@ Make your static directory file listing tree both beautiful and efficient with s
 
 I use this theme for my [personal static file listing](https://files.guzek.uk/misc/showcase/), which you can test for yourself!
 
-![root directory listing](https://files.guzek.uk/showcase/pictures/screenshots/root.png)
-![pictures directory listing](https://files.guzek.uk/showcase/pictures/screenshots/pictures.png)
-![screenshots directory listing](https://files.guzek.uk/showcase/pictures/screenshots/screenshots.png)
-![404 page](https://files.guzek.uk/showcase/pictures/screenshots/404.png)
+![root directory listing](https://files.guzek.uk/misc/showcase/pictures/screenshots/root.png)
+![pictures directory listing](https://files.guzek.uk/misc/showcase/pictures/screenshots/pictures.png)
+![screenshots directory listing](https://files.guzek.uk/misc/showcase/pictures/screenshots/screenshots.png)
+![404 page](https://files.guzek.uk/misc/showcase/pictures/screenshots/404.png)
 
 ## Installation
 
