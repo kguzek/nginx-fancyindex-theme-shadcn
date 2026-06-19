@@ -4,15 +4,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="dark" />
-    <title>404 - Not Found</title>
+    <title>{{site_title}}</title>
     <link rel="stylesheet" href="/.fancyindex/styles.css" />
   </head>
   <body>
     <div class="page-shell">
       <header class="site-header">
         <div>
-          <p class="eyebrow">not found</p>
-          <h1 class="site-title">404</h1>
+          <p class="eyebrow">{{site_subheading}}</p>
+          <h1 {{site_heading_attributes}}>{{site_heading}}</h1>
         </div>
       </header>
 
@@ -25,16 +25,8 @@
         <span>Home</span>
       </nav>
 
-      <main class="index-card not-found-card" aria-label="Not found">
-        <div class="not-found-content">
-          <div class="not-found-icon" aria-hidden="true"></div>
-          <p class="not-found-copy">
-            This file or directory may have moved, been deleted, or never existed here.
-          </p>
-          <div class="not-found-actions">
-            <a href="/">&larr; Back to home</a>
-          </div>
-        </div>
+      <main class="{{main_class}}" aria-label="{{main_aria_label}}">
+        <!-- content-goes-here -->
       </main>
 
       <footer class="site-footer">
