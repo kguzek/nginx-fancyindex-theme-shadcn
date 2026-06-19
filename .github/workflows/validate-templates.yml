@@ -1,0 +1,24 @@
+name: Validate generated templates
+
+permissions:
+  contents: read
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check-generated:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Run generator
+        run: ./generate-templates.sh
+
+      - name: Check for dirty git tree
+        run: |
+          git status --porcelain
+          git diff --exit-code
