@@ -28,7 +28,7 @@ declare -A PLACEHOLDERS_404=(
 )
 
 substitute_placeholders() {
-  if  [[ "$1" == "404" ]]; then
+  if [[ "${1-}" == "404" ]]; then
     local -n dict=PLACEHOLDERS_404
   else
     local -n dict=PLACEHOLDERS_DEFAULT
