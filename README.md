@@ -107,7 +107,7 @@ Below is a full setup example, using the Docker image with Docker Compose.
 # /opt/files/compose.yaml
 services:
   files:
-    image: registry.guzek.uk/nginx/nginx-fancyindex
+    image: git.guzek.uk/kguzek/nginx-fancyindex:v0.5.0
     container_name: files
     restart: unless-stopped
     ports:
